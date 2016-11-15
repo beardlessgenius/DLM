@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "DLM",
+  "version": "0.1",
+  "background": {"persistent": false, "scripts": ["background.js","back.js"]},
+    "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["downloads", "downloads.open", "downloads.shelf","activeTab","background"]
+}
