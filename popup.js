@@ -13,9 +13,9 @@ function hello() {
 
 
 var radio1 = document.getElementById('option1').value;
-var radio2 = document.getElementById('option2').value;
+//var radio2 = document.getElementById('option2').value;
 if(radio1=="folder1"){
 document.getElementById('option1').addEventListener('click',hello);}
-if(radio2=="folder2"){
+if(radio1=="folder2"){
 	document.getElementById('option2').addEventListener('click',hello2);
 }
